@@ -1,0 +1,226 @@
+<!Doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- build:css css/precios.css-->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
+    <!-- endbuild -->
+    
+    <title> HuntBurguer // Fast Food </title>
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="./index.html"> HuntBurguer </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"> </span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a class="nav-link" href="./index.html"> Inicio </a></li>
+          <li class="nav-item"><a class="nav-link" href="./about.html"> Nosotros </a></li>
+          <li class="nav-item active"><a class="nav-link" href="#"> Precios </a></li>
+          <li class="nav-item"><a class="nav-link" href="./terminos.html"> Terminos y Condiciones </a></li>
+          <li class="nav-item"><a class="nav-link" href="./contacto.html"> Contacto </a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="jumbotron">
+      <a href="./index.html"><img class="logo" src="imagenes/logo.PNG" alt="hamburguesa img"/></a>
+    </div>
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="./index.html"> Inicio </a></li> 
+          <li class="breadcrumb-item active" aria-current="page"> Precios </li>
+        </ol>
+      </nav>
+
+      <ul class="nav nav-pills" id="myTab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" id="comparar-tab" data-toggle="pill"
+          href="#comparar" role="tab" aria-controls="comparar" 
+          aria-selected=" true"> Comparar Hamburguesas</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" id="medios-tab" data-toggle="pill"
+          href="#medios" role="tab" aria-controls="medios" 
+          aria-selected=" true"> Medios de pago </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link " id="comentarios-tab" data-toggle="pill"
+          href="#comentarios" role="tab" aria-controls="comentarios" 
+          aria-selected=" true"> Comentarios </a>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="comparar" role="tabpannel"
+          aria-labelledby="comparar-tab">
+
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <thead class="thead-dark">
+                <th> Hamburguesas </th>
+                <th>  Precio sin Combo </th>
+                <th> Precio en Combo </th>
+              </thead>
+              <tbody>
+                <tr>
+                  <td> Hamburguesa Clasica </td>
+                  <td> $ 13.000</td>
+                  <td> $ 19.000 </td>
+                </tr>
+                <tr>
+                  <td> Hamburguesa de Queso </td>
+                  <td> $ 15.000 </td>
+                  <td> $ 21.000 </td>
+                </tr>
+                <tr>
+                  <td> Hamburguesa de Pollo </td>
+                  <td> $ 14.000 </td>
+                  <td> $ 20.000 </td>
+                </tr>
+                <tr>
+                  <td> Hamburguesa Todoterreno </td>
+                  <td> $ 23.000 </td>
+                  <td> $ 29.000 </td>
+                </tr>
+                <tr>
+                  <td> Hamburguesa Mexicana </td>
+                  <td> $ 20.000 </td>
+                  <td> $ 26.000 </td>
+                </tr>
+                <tr>
+                  <td> Hamburguesa 3/4 Libra </td>
+                  <td> $ 27.000 </td>
+                  <td> $ 33.000 </td>
+                </tr>
+                <tr>
+                  <td> Hamburguesa Criolla </td>
+                  <td> $ 20.000 </td>
+                  <td> $ 26.000 </td>
+                </tr>
+                <tr>
+                  <td> Hamburguesa Especial </td>
+                  <td> $ 22.000 </td>
+                  <td> $ 28.000 </td>
+                </tr>
+              </tbody>
+            </table> 
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="medios" role="tabpanel" aria-labelledby="medios-tab">
+          <div class="accordion" id="accordionMedios">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" type="button" data-toggle="collapse"
+                  data-target="#collapseTarjetas" aria-expanded="true" aria-controls="collapseTarjetas">
+                  Tarjetas Aceptadas
+                </button>
+                </h5>
+              </div>
+              <div id="collapseTarjetas" class="collapse" aria-labelledby="headingOne"
+                data-parent="#accordionMedios">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"> MasterCard </li>
+                  <li class="list-group-item"> Visa </li>
+                  <li class="list-group-item"> Tarjeta de Credito / Debito </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" type="button" data-toggle="collapse"
+                  data-target="#collapseOnline" aria-expanded="true" aria-controls="collapseOnline">
+                  Pagos En Linea
+                </button>
+                </h5>
+              </div>
+              <div id="collapseOnline" class="collapse" aria-labelledby="headingTwo"
+                data-parent="#accordionMedios">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"> PSE </li>
+                  <li class="list-group-item"> PayU </li>
+                  <li class="list-group-item"> PayPal </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" type="button" data-toggle="collapse"
+                  data-target="#collapseEfectivo" aria-expanded="true" aria-controls="collapseEfectivo">
+                  Pagos en Efectivo
+                </button>
+                </h5>
+              </div>
+              <div id="collapseEfectivo" class="collapse" aria-labelledby="headingThree"
+                data-parent="#accordionMedios">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"> Efecty </li>
+                  <li class="list-group-item"> Via Baloto </li>
+                  <li class="list-group-item"> Contra Entrega </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="comentarios" role="tabpanel"
+          aria-labelledby="comentarios-tab">
+          <h4> Comentarios</h4>
+          <textarea id="comentario" class="form-control" rows="10" required> </textarea>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="row">
+        <div class="col-sm-4 d-flex flex-column">
+          <a href="http://www.faceboof.com"> Facebook </a>
+          <a href="http://www.twitter.com"> Twitter</a>
+          <a href="http://www.google.com"> Google </a>
+          <a href="http://www.instagram.com"> Instagram</a>
+        </div >
+  
+        <div class="col-sm-4 d-flex flex-column">
+          <address>
+            <h4 class="rest"> HuntBurguer </h4>
+            <p class="info"><span class="oi oi-home footer-address-icon"></span> Carrera 14, Av. Kevin Ángel # 55D – 251, Manizales, Caldas, Colombia <br>
+              <span class="oi oi-phone footer-address-icon"></span> +5723453456 <br>
+              <span class="oi oi-inbox footer-address-icon"></span> huntburguer@gmail.com </p>
+          </address>
+        </div >
+
+        <div class="col-sm-4 d-flex flex-column align-items-end">
+          <a href="./index.html"> Inicio </a>
+          <a href="./about.html"> Nosotros</a>
+          <a href="./precios.html"> Precios</a>
+          <a href="./terminos.html"> Termino y Condiciones </a>
+          <a href="./contacto.html"> Contacto</a>
+        </div >
+      </div >  
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- build:js js/main.js-->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
+
+

@@ -1,0 +1,96 @@
+.jumbotron {
+  background-color: #020202;
+  color: #ffffff;
+  margin-top: 30px;
+  margin-bottom: 0px; }
+
+footer {
+  padding: 10px 10px 0 10px;
+  background-color: #020202;
+  margin-top: 20px;
+  margin-bottom: 0px; }
+
+.card-combo {
+  flex: 1 200px;
+  /* cuanto se quiere que cresca el elemeto tipo flex */
+  margin-top: 10px;
+  margin-bottom: 0px; }
+
+.card {
+  border: 0px; }
+
+.precio {
+  margin-top: 5px;
+  margin-bottom: 0px; }
+
+.footer-address-icon {
+  padding-right: 10px; }
+
+.btn-reserva {
+  background-color: #ff4500;
+  color: #ffffff;
+  width: 219px;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer; }
+
+.btn-guardar {
+  background-color: #ff4500;
+  color: #ffffff;
+  width: 219px;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer; }
+
+.btn-mostrar {
+  background-color: #ff4500;
+  color: #ffffff;
+  width: 219px;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 0px;
+  margin-bottom: 10px; }
+
+.btn-enviar {
+  background-color: #ff4500;
+  color: #ffffff;
+  width: 930px;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer; }
+
+.btn-comentario {
+  background-color: #020202;
+  color: #ffffff;
+  width: 930px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer; }
+
+.btn-comentario2 {
+  background-color: #a8a8a8;
+  color: #020202;
+  width: 930px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer; }
+
+.rest {
+  color: #ffffff; }
+
+.info {
+  color: #ffffff; }
+
+.tab-content {
+  padding-top: 10px; }

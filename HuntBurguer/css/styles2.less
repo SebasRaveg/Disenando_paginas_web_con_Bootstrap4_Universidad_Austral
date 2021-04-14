@@ -1,0 +1,114 @@
+@black: #020202;
+@white: #ffffff;
+@orangered: #ff4500;
+@grey: #a8a8a8;
+
+.margenes (@top, @botton){
+    margin-top: @top;
+    margin-bottom: @botton;
+}
+
+.jumbotron{
+    background-color: @black;
+    color: @white;
+    .margenes(30px, 0px);
+}
+
+footer{
+    padding: 10px 10px 0 10px;
+    background-color: @black;
+    .margenes(20px, 0px);
+}
+
+.card-combo{
+    flex: 1 200px; /* cuanto se quiere que cresca el elemeto tipo flex */ 
+    .margenes(10px, 0px); 
+}
+
+.card{
+    border: 0px;
+}
+
+.precio{
+    .margenes(5px, 0px);
+}
+
+.footer-address-icon{
+    padding-right: 10px;
+}
+
+.btn-reserva{
+    background-color: @orangered;
+    color:@white;
+    width: 219px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    
+}
+
+.btn-guardar{
+    background-color: @orangered;
+    color: @white;
+    width: 219px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.btn-mostrar{
+    background-color: @orangered;
+    color: @white;
+    width: 219px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    .margenes(0px, 10px);
+}
+
+.btn-enviar{
+    background-color: @orangered;
+    color: @white;
+    width: 930px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.btn-comentario{
+    background-color: @black;
+    color: @white;
+    width: 930px;
+    padding: 10px;
+    .margenes(10px, 0px);
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.btn-comentario2{
+    background-color: @grey;
+    color: @black;
+    width: 930px;
+    padding: 10px;
+    .margenes(10px, 0px);
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.rest{
+    color: @white;
+}
+
+.info{
+    color: @white
+}
+
+.tab-content{
+    padding-top: 10px;
+}
